@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                echo 'Application building testing 1-min trigger  '
             }
         }
         stage('Test') {
