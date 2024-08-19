@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo 'Application building testing inside dev'
+                echo 'Application building testing inside dev-version-3'
             }
         }
         stage('Test') {
